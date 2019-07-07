@@ -1,0 +1,122 @@
+.hc1 {
+    position: absolute;
+    left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    min-width: 980px;
+    top: 0px;
+    height: 150px;
+}
+.hc1screenWidthBackground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.hc1centeredContent{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hc1bg{
+    margin-left: calc((100% - 980px) / 2);
+    width: 980px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hc1inlineContent{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.txtNew{
+    pointer-events: none;
+    left: 77px;
+    width: 265px;
+    position: absolute;
+    top: 35px;
+    word-wrap: break-word;
+    text-align: start;
+    p{
+        margin: 0;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    span{
+        font-weight: bold;
+    }
+    a{
+        color: inherit;
+    }
+}
+#WRchTex9{
+    margin-left: calc((100% - 980px) * 0.5);
+}
+.txtNew > *{
+    pointer-events: auto;
+}
+.font_0{
+    font: normal normal bold 43px/1.4rem 'noticia text',serif;
+    color: #4D4D4D;
+}
+.lower{
+    font-size: 18px;
+    font-weight: normal
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.navbar-toggler{
+    position: relative;
+    margin: 45px 0px 65px calc((100% - 980px) * 0.5);
+    left: 342px;
+}
+#navbarNav{
+    position: relative;
+    margin: 81px 0px 44px calc((100% - 980px) * 0.5);
+    left: 342px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+    width: 638px;
+    height: 29px;
+    overflow: visible;
+    .nav-link{
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+    .navbar-nav{
+        width: calc(100% - 0px);
+        height: calc(100% - 0px);
+        white-space: nowrap;
+        overflow: visible;
+        position: relative;
+        text-align: left;
+    }
+}
+@media(max-width: 992px){
+    #navbarNav{
+        margin: -40px 0px 0px 0;
+        left: 65px;
+    }
+    .navbar-nav{
+        flex-direction: row;
+        .nav-link{
+            padding: .5rem 1rem;
+        }
+    }
+}
