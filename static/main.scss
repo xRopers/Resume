@@ -1,3 +1,4 @@
+// ========top navbar=============
 .hc1 {
     position: absolute;
     left: 0px;
@@ -41,7 +42,7 @@
 .txtNew{
     pointer-events: none;
     left: 77px;
-    width: 265px;
+    width: 281px;
     position: absolute;
     top: 35px;
     word-wrap: break-word;
@@ -87,7 +88,7 @@ a{
 #navbarNav{
     position: relative;
     margin: 81px 0px 44px calc((100% - 980px) * 0.5);
-    left: 342px;
+    left: 352px;
     grid-area: 1 / 1 / 2 / 2;
     justify-self: start;
     align-self: start;
@@ -118,5 +119,16 @@ a{
         .nav-link{
             padding: .5rem 1rem;
         }
+    }
+}
+// ================body content==========================
+#content{
+    position: absolute;
+    top: 150px;
+    background-color: rgb(240, 240, 240);
+    height: 900px;
+    width: 100%;
+    .container{
+        
     }
 }

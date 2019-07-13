@@ -46,7 +46,7 @@
 .txtNew {
   pointer-events: none;
   left: 77px;
-  width: 265px;
+  width: 281px;
   position: absolute;
   top: 35px;
   word-wrap: break-word;
@@ -103,7 +103,7 @@ a:hover {
 #navbarNav {
   position: relative;
   margin: 81px 0px 44px calc((100% - 980px) * 0.5);
-  left: 342px;
+  left: 352px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -148,5 +148,13 @@ a:hover {
   .navbar-nav .nav-link {
     padding: .5rem 1rem;
   }
+}
+
+#content {
+  position: absolute;
+  top: 150px;
+  background-color: #f0f0f0;
+  height: 900px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
